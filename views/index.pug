@@ -1,0 +1,17 @@
+extends layout.pug
+
+block content 
+  article.grid-container.portfolio-intro
+    div
+      h1 My Portfolio
+
+      p.lead.text-light
+        | Hi! My name is Jason Hedman and I am a Full Stack JavaScript student at Treehouse. Linked below are a few of my projects that best display my work. Thank you for visiting my site!
+  article.grid-container.portfolio-index
+    
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+      each proj, index in projects
+        .cell
+          a(href=`/project${index+1}`)
+            img.thumbnail(src=`static/${proj.image_urls[0]}`)
+            h5= proj.project_name

@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "project_name": "Random Quote Generator",
+            "description": "App that displays random famous quotes each time a button is clicked. The quotes are from famous businessmen and programmers who are prominent in today's culture",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://jasonhedman.github.io/FSJS-Project-1/",
+            "github_link": "https://github.com/jasonhedman/FSJS-Project-1",
+            "image_urls": ["images/project1-1.png", "images/project1-2.png", "images/project1-3.png"]
+        },
+        {
+            "id": 2,
+            "project_name": "List Pagination and Filtering",
+            "description": "This project enhances the usability of a web page that is displaying way too much information all at once. Long lists don't make for a good user experience on a web page. To make it easier for the user to find information and read the page, a page pagination feature was developed.",
+            "technologies": ["JavaScript", "jQuery", "HTML", "CSS"],
+            "live_link": "https://jasonhedman.github.io/fsjs-project2/",
+            "github_link": "https://github.com/jasonhedman/fsjs-project2",
+            "image_urls": ["images/project2-1.png", "images/project2-2.png", "images/project2-3.png"]
+        },
+        {
+            "id": 3,
+            "project_name": "Interactive Form",
+            "description": "In this project, JavaScript was used to enhance an interactive registration form for a fictional conference called FullStack Conf. The form validates each field and prevents submission if any of the validations fail.",
+            "technologies": ["Javascript", "jQuery", "DOM Filtering", "HTML", "CSS"],
+            "live_link": "https://jasonhedman.github.io/fsjs-project3/",
+            "github_link": "https://github.com/jasonhedman/fsjs-project3",
+            "image_urls": ["images/project3-1.png", "images/project3-2.png", "images/project3-3.png"]
+        },
+        {
+            "id": 4,
+            "project_name": "Object Oriented Programming Game Show App",
+            "description": "This project is a browser-based, word guessing game: Phrase Hunter. The app functions, using JavaScript and OOP (Object Oriented Programming), to select a random, hidden phrase which a player tries to guess by clicking letters on an onscreen keyboard or by using their computer's keyboard.",
+            "technologies": ["JavaScript", "JavaScript Classes and Methods", "HTML", "CSS"],
+            "live_link": "https://jasonhedman.github.io/fsjs-project4/",
+            "github_link": "https://github.com/jasonhedman/fsjs-project4",
+            "image_urls": ["images/project4-1.png", "images/project4-2.png", "images/project4-3.png"]
+        },
+        {
+            "id": 5,
+            "project_name": "Public API Requests",
+            "description": "This project is an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other. The app uses the Random User Generator API to display information for a given number of employees.",
+            "technologies": ["JavaScript", "jQuery", "AJAX", "Fetch API", "HTML", "CSS"],
+            "live_link": "https://jasonhedman.github.io/fsjs-project5/",
+            "github_link": "https://github.com/jasonhedman/fsjs-project5",
+            "image_urls": ["images/project5-1.png", "images/project5-2.png", "images/project5-3.png"]
+        }
+    ]
+}

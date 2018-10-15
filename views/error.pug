@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  article.grid-container.portfolio-intro
+    div
+      a(href='/') ← Back
+      br
+      br
+      h1= error.message
+      h2= error.status
+      p.lead.text-light= error.stack
+      
+      
