@@ -149,10 +149,18 @@ a:hover{
     line-height: 25px;
 }
 
-.cell {
+.portfolio-index .cell {
     transition: transform 1s;
 }
 
-.cell:hover {
+.portfolio-index .cell:hover {
    transform: scale(1.1);
+}
+
+.title-bar {
+    background-color: darkgray;
+}
+
+.title-bar-left {
+    color: lightblue;
 }
